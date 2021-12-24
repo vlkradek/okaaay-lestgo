@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#loader {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #86B4CE;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+#loader svg {
+  animation: load 2s linear infinite;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#overflow {
+  height: 100vh;
+  width: 100vw;
+  background-color: #86B4CE;
+  position: fixed;
+  left: 100%;
+  transition: 1s;
+  top: 0%;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+#overflow #close {
+  position: fixed;
+  right: 0;
+  padding: 15px;
+  transition: 0.6s;
+  top: 0;
+  cursor: pointer;
+}
+#overflow #close:hover {
+  fill: #cacaca;
+}
+#overflow h2 {
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 5vw;
+  position: initial;
+  margin: 0 0 15px;
+}
+#overflow img {
+  width: 15vw;
+  margin-top: 50px;
+}
+#overflow .gifts {
+  display: grid;
+  width: 70vw;
+  height: 500px;
+  grid-template-areas: "a b c" "a  d e" "f g e";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+#overflow .gifts .gift {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(202, 202, 202, 0.4);
+  border-radius: 10px;
+  padding: 15px;
+}
+#overflow .gifts .gift svg {
+  width: 100%;
+}
+#overflow .gifts .gift h3 {
+  font-family: Poppins, sans-serif;
+  color: #fff;
+}
+#overflow .gifts .gift p {
+  color: #868686;
+  font-style: italic;
+  font-family: Poppins, sans-serif;
+}
+#overflow .gifts .a {
+  grid-area: a;
+}
+#overflow .gifts .b {
+  grid-area: b;
+}
+#overflow .gifts .c {
+  grid-area: c;
+}
+#overflow .gifts .d {
+  grid-area: d;
+}
+#overflow .gifts .e {
+  grid-area: e;
+}
+#overflow .gifts .f {
+  grid-area: f;
+}
+#overflow .gifts .g {
+  grid-area: g;
+}
+
+#snow {
+  height: 100%;
+  transition: 15s;
+  overflow: hidden;
+}
+#snow .snowflake {
+  position: absolute;
+  transition: 15s;
+  filter: drop-shadow(2px 2px 3px #86B4CE);
+  animation: snow linear infinite;
+  z-index: 100;
+}
+#snow .s1 {
+  left: 86vw;
+  top: -10%;
+  animation-duration: 17s;
+  animation-delay: 9s;
+}
+#snow .s2 {
+  left: 85vw;
+  top: -10%;
+  animation-duration: 11s;
+  animation-delay: 1s;
+}
+#snow .s3 {
+  left: 82vw;
+  top: -10%;
+  animation-duration: 20s;
+  animation-delay: 1s;
+}
+#snow .s4 {
+  left: 1vw;
+  top: -10%;
+  animation-duration: 5s;
+  animation-delay: 4s;
+}
+#snow .s5 {
+  left: 74vw;
+  top: -10%;
+  animation-duration: 4s;
+  animation-delay: 7s;
+}
+#snow .s6 {
+  left: 48vw;
+  top: -10%;
+  animation-duration: 9s;
+  animation-delay: 3s;
+}
+#snow .s7 {
+  left: 14vw;
+  top: -10%;
+  animation-duration: 5s;
+  animation-delay: 4s;
+}
+#snow .s8 {
+  left: 22vw;
+  top: -10%;
+  animation-duration: 23s;
+  animation-delay: 3s;
+}
+#snow .s9 {
+  left: 6vw;
+  top: -10%;
+  animation-duration: 17s;
+  animation-delay: 7s;
+}
+#snow .s10 {
+  left: 11vw;
+  top: -10%;
+  animation-duration: 4s;
+  animation-delay: 8s;
+}
+#snow .s11 {
+  left: 2vw;
+  top: -10%;
+  animation-duration: 12s;
+  animation-delay: 3s;
+}
+#snow .s12 {
+  left: 8vw;
+  top: -10%;
+  animation-duration: 7s;
+  animation-delay: 3s;
+}
+#snow .s13 {
+  left: 97vw;
+  top: -10%;
+  animation-duration: 15s;
+  animation-delay: 7s;
+}
+#snow .s14 {
+  left: 10vw;
+  top: -10%;
+  animation-duration: 10s;
+  animation-delay: 4s;
+}
+#snow .s15 {
+  left: 39vw;
+  top: -10%;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+@keyframes snow {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+header {
+  height: 100vh;
+  background: url("img/bg.svg");
+  background-color: #86B4CE;
+  background-position: center;
+  background-size: 40vw;
+  background-repeat: no-repeat;
+  position: relative;
+}
+header h1 {
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 4px 4px 0px #6da0ba;
+  font-size: 6vw;
+}
+
+.title {
+  position: relative;
+}
+.title .title-cont {
+  width: 80vw;
+  margin: 0 auto 250px auto;
+  display: flex;
+  align-items: center;
+}
+.title .title-cont h2 {
+  font-family: Poppins;
+  color: #86B4CE;
+  text-align: left;
+  font-size: 5vw;
+  line-height: 1.3;
+}
+.title .title-cont img {
+  width: 30%;
+}
+.title svg {
+  position: absolute;
+  bottom: 0;
+}
+
+main {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  background-color: "#fff";
+}
+main .items {
+  display: flex;
+  width: 70vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .items .item {
+  margin-bottom: 50px;
+  display: flex;
+  padding: 15px;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  width: 20%;
+  box-shadow: 4px 4px 10px 4px #cacaca;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: "transparent";
+}
+main .items .item img {
+  width: 100%;
+  z-index: 10;
+}
+main .items .item h3 {
+  text-align: center;
+  color: #2f2f2f;
+  font-family: Poppins;
+  transition: 0.7s;
+  z-index: 10;
+}
+main .items .item::after {
+  height: 100%;
+  left: -150%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.8s;
+  background-color: #86B4CE;
+  transform-origin: top left;
+  position: absolute;
+  content: "";
+  z-index: 5;
+  width: 0;
+}
+main .items .item:hover::after {
+  width: 300%;
+}
+main .items .item:hover h3 {
+  color: #fff;
+}
+
+footer {
+  background-color: #86B4CE;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-family: Poppins;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .copy:first-child {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title .title-cont {
+    flex-direction: column;
+  }
+}
