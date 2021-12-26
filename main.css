@@ -142,94 +142,94 @@ body {
   z-index: 100;
 }
 #snow .s1 {
-  left: 23vw;
-  top: -10%;
-  animation-duration: 13s;
-  animation-delay: 2s;
-}
-#snow .s2 {
-  left: 57vw;
-  top: -10%;
-  animation-duration: 15s;
-  animation-delay: 6s;
-}
-#snow .s3 {
-  left: 20vw;
-  top: -10%;
-  animation-duration: 6s;
-  animation-delay: 2s;
-}
-#snow .s4 {
-  left: 56vw;
-  top: -10%;
-  animation-duration: 6s;
-  animation-delay: 8s;
-}
-#snow .s5 {
-  left: 52vw;
-  top: -10%;
-  animation-duration: 18s;
-  animation-delay: 9s;
-}
-#snow .s6 {
-  left: 87vw;
-  top: -10%;
-  animation-duration: 5s;
-  animation-delay: 7s;
-}
-#snow .s7 {
-  left: 90vw;
-  top: -10%;
-  animation-duration: 8s;
-  animation-delay: 8s;
-}
-#snow .s8 {
-  left: 65vw;
-  top: -10%;
-  animation-duration: 16s;
-  animation-delay: 4s;
-}
-#snow .s9 {
-  left: 86vw;
-  top: -10%;
-  animation-duration: 21s;
-  animation-delay: 2s;
-}
-#snow .s10 {
-  left: 61vw;
+  left: 89vw;
   top: -10%;
   animation-duration: 9s;
-  animation-delay: 3s;
+  animation-delay: 8s;
 }
-#snow .s11 {
-  left: 57vw;
+#snow .s2 {
+  left: 72vw;
+  top: -10%;
+  animation-duration: 23s;
+  animation-delay: 10s;
+}
+#snow .s3 {
+  left: 17vw;
+  top: -10%;
+  animation-duration: 22s;
+  animation-delay: 9s;
+}
+#snow .s4 {
+  left: 17vw;
+  top: -10%;
+  animation-duration: 5s;
+  animation-delay: 6s;
+}
+#snow .s5 {
+  left: 88vw;
+  top: -10%;
+  animation-duration: 11s;
+  animation-delay: 5s;
+}
+#snow .s6 {
+  left: 81vw;
+  top: -10%;
+  animation-duration: 11s;
+  animation-delay: 9s;
+}
+#snow .s7 {
+  left: 60vw;
+  top: -10%;
+  animation-duration: 16s;
+  animation-delay: 1s;
+}
+#snow .s8 {
+  left: 20vw;
+  top: -10%;
+  animation-duration: 10s;
+  animation-delay: 5s;
+}
+#snow .s9 {
+  left: 17vw;
+  top: -10%;
+  animation-duration: 14s;
+  animation-delay: 8s;
+}
+#snow .s10 {
+  left: 81vw;
   top: -10%;
   animation-duration: 16s;
   animation-delay: 9s;
 }
-#snow .s12 {
-  left: 2vw;
+#snow .s11 {
+  left: 68vw;
   top: -10%;
-  animation-duration: 10s;
-  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+#snow .s12 {
+  left: 27vw;
+  top: -10%;
+  animation-duration: 12s;
+  animation-delay: 8s;
 }
 #snow .s13 {
-  left: 64vw;
+  left: 15vw;
   top: -10%;
-  animation-duration: 10s;
-  animation-delay: 3s;
-}
-#snow .s14 {
-  left: 44vw;
-  top: -10%;
-  animation-duration: 14s;
+  animation-duration: 19s;
   animation-delay: 9s;
 }
-#snow .s15 {
-  left: 83vw;
+#snow .s14 {
+  left: 90vw;
   top: -10%;
-  animation-duration: 15s;
-  animation-delay: 2s;
+  animation-duration: 13s;
+  animation-delay: 1s;
+}
+#snow .s15 {
+  left: 21vw;
+  top: -10%;
+  animation-duration: 14s;
+  animation-delay: 10s;
 }
 
 @keyframes snow {
@@ -407,7 +407,7 @@ footer .copy:first-child {
     height: 60vh;
   }
   header h1 {
-    top: 90%;
+    top: 80%;
   }
 
   .title .title-cont {
