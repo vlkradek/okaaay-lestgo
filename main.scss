@@ -228,14 +228,18 @@ main{
   .items{
     display: flex;
     width: 70vw;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
     .item{
-      margin-bottom: 50px;
+      //margin-bottom: 50px;
 
-      //flex-basis: 40%;
+      flex-basis: 24%;
+
+
       //margin-right: 10px;
       display: flex;
+      //margin: 15px;
       padding: 15px;
       position: relative;
       //margin-right: 25px;
@@ -315,6 +319,15 @@ footer{
   .title{
     .title-cont{
       flex-direction: column;
+    }
+  }
+}
+@media only screen and (max-width: 770px) {
+  main{
+    .items{
+      .item{
+        flex-basis: 48%;
+      }
     }
   }
 }

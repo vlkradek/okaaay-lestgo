@@ -526,6 +526,7 @@ style=" fill:#000000;"><path fill="#d0d8da" d="M46,17v6h2a7,7,0,0,1,7,7h0a7,7,0,
     let close = document.getElementById('close')
     close.onclick = function (){
         overflow.style.left = '100%'
+        close.style.display = 'none'
         document.querySelector('body').style.overflow = 'initial'
     }
 
