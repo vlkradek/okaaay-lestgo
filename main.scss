@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$main-font: "Poppins";
+
 $itembg: 'transparent';
 $mainbg: '#fff';
 $itemshadow: '4px 4px 10px 4px #cacaca';
@@ -6,6 +10,7 @@ $itemshadow: '4px 4px 10px 4px #cacaca';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $main-font;
 
 }
 *::-webkit-scrollbar{
@@ -49,7 +54,7 @@ body{
   background-color: #86B4CE;
   position: fixed;
   left: 100%;
-  transition: 1s;
+  transition: 0.6s;
   top: 0%;
   z-index: 90;
   display: flex;
@@ -68,7 +73,7 @@ body{
     }
   }
   h2{
-    font-family: Poppins, sans-serif;
+    font-family: $main-font;
     color: #fff;
     font-size: 5vw;
     position: initial;
@@ -103,13 +108,13 @@ body{
         width: 100%;
       }
       h3{
-        font-family: Poppins, sans-serif;
+        font-family: $main-font;
         color: #fff;
       }
       p{
         color: #868686;
         font-style: italic;
-        font-family: Poppins, sans-serif;
+        font-family: $main-font;
       }
     }
     .a {
@@ -180,7 +185,7 @@ header{
   position: relative;
   //background-attachment: fixed;
   h1{
-    font-family: Poppins, sans-serif;
+    font-family: $main-font;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -201,7 +206,7 @@ header{
     //margin: 50px 50px 300px;
 
     h2{
-      font-family: Poppins;
+      font-family: $main-font;
       color: #86B4CE;
       text-align: left;
       font-size: 5vw;
@@ -231,6 +236,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 100px;
     .item{
       //margin-bottom: 50px;
 
@@ -262,7 +268,7 @@ main{
       h3{
         text-align: center;
         color: #2f2f2f;
-        font-family: Poppins;
+        font-family: $main-font;
         transition: 0.7s;
         z-index: 10;
         //width: 100px;
@@ -299,7 +305,7 @@ footer{
   align-items: center;
   padding: 20px;
   color: #fff;
-  font-family: Poppins;
+  font-family: $main-font;
   a{
     text-decoration: none;
     color: #fff;
@@ -322,11 +328,82 @@ footer{
     }
   }
 }
+@media only screen and (max-width: 800px) {
+  header{
+    background-size: 60vw;
+  }
+}
 @media only screen and (max-width: 770px) {
+  #overflow{
+    .gifts{
+      width: 90vw;
+    }
+  }
   main{
     .items{
       .item{
         flex-basis: 48%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  #overflow{
+    .gifts{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      .gift{
+        flex-basis: 48%;
+      }
+    }
+  }
+  header{
+    background-size: 70vw;
+  }
+  .title{
+    .title-cont{
+      margin: 0 auto 200px auto;
+    }
+  }
+  main{
+    .items{
+      .item{
+        h3{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 360px) {
+  #overflow{
+    .gifts{
+      .gift{
+        flex-basis: 100%;
+      }
+    }
+  }
+  header{
+    height: 50vh;
+
+  }
+  main{
+    .items{
+      width: 95vw;
+      justify-content: center;
+    }
+  }
+}
+@media only screen and (max-width: 300px) {
+  main{
+    .items{
+      .item{
+        flex-basis: 100%;
+        h3{
+          font-size: 20px;
+        }
       }
     }
   }

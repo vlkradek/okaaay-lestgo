@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins";
 }
 
 *::-webkit-scrollbar {
@@ -44,7 +46,7 @@ body {
   background-color: #86B4CE;
   position: fixed;
   left: 100%;
-  transition: 1s;
+  transition: 0.6s;
   top: 0%;
   z-index: 90;
   display: flex;
@@ -64,7 +66,7 @@ body {
   fill: #cacaca;
 }
 #overflow h2 {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins";
   color: #fff;
   font-size: 5vw;
   position: initial;
@@ -97,13 +99,13 @@ body {
   width: 100%;
 }
 #overflow .gifts .gift h3 {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins";
   color: #fff;
 }
 #overflow .gifts .gift p {
   color: #868686;
   font-style: italic;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins";
 }
 #overflow .gifts .a {
   grid-area: a;
@@ -140,94 +142,94 @@ body {
   z-index: 100;
 }
 #snow .s1 {
-  left: 41vw;
+  left: 8vw;
   top: -10%;
-  animation-duration: 19s;
-  animation-delay: 4s;
+  animation-duration: 16s;
+  animation-delay: 6s;
 }
 #snow .s2 {
-  left: 9vw;
+  left: 60vw;
   top: -10%;
-  animation-duration: 8s;
+  animation-duration: 5s;
   animation-delay: 9s;
 }
 #snow .s3 {
-  left: 77vw;
+  left: 8vw;
   top: -10%;
-  animation-duration: 22s;
-  animation-delay: 4s;
+  animation-duration: 13s;
+  animation-delay: 8s;
 }
 #snow .s4 {
-  left: 88vw;
+  left: 63vw;
   top: -10%;
-  animation-duration: 6s;
-  animation-delay: 7s;
+  animation-duration: 17s;
+  animation-delay: 8s;
 }
 #snow .s5 {
-  left: 21vw;
+  left: 80vw;
   top: -10%;
-  animation-duration: 23s;
-  animation-delay: 1s;
+  animation-duration: 16s;
+  animation-delay: 4s;
 }
 #snow .s6 {
-  left: 10vw;
+  left: 11vw;
   top: -10%;
-  animation-duration: 10s;
+  animation-duration: 23s;
   animation-delay: 5s;
 }
 #snow .s7 {
-  left: 39vw;
+  left: 53vw;
   top: -10%;
   animation-duration: 20s;
   animation-delay: 6s;
 }
 #snow .s8 {
-  left: 70vw;
+  left: 50vw;
   top: -10%;
-  animation-duration: 13s;
-  animation-delay: 1s;
-}
-#snow .s9 {
-  left: 65vw;
-  top: -10%;
-  animation-duration: 14s;
-  animation-delay: 4s;
-}
-#snow .s10 {
-  left: 63vw;
-  top: -10%;
-  animation-duration: 7s;
-  animation-delay: 7s;
-}
-#snow .s11 {
-  left: 67vw;
-  top: -10%;
-  animation-duration: 11s;
-  animation-delay: 8s;
-}
-#snow .s12 {
-  left: 37vw;
-  top: -10%;
-  animation-duration: 18s;
+  animation-duration: 10s;
   animation-delay: 6s;
 }
-#snow .s13 {
-  left: 43vw;
+#snow .s9 {
+  left: 26vw;
   top: -10%;
-  animation-duration: 17s;
-  animation-delay: 2s;
+  animation-duration: 23s;
+  animation-delay: 6s;
+}
+#snow .s10 {
+  left: 76vw;
+  top: -10%;
+  animation-duration: 8s;
+  animation-delay: 6s;
+}
+#snow .s11 {
+  left: 15vw;
+  top: -10%;
+  animation-duration: 15s;
+  animation-delay: 7s;
+}
+#snow .s12 {
+  left: 26vw;
+  top: -10%;
+  animation-duration: 13s;
+  animation-delay: 3s;
+}
+#snow .s13 {
+  left: 20vw;
+  top: -10%;
+  animation-duration: 10s;
+  animation-delay: 6s;
 }
 #snow .s14 {
-  left: 24vw;
+  left: 5vw;
   top: -10%;
-  animation-duration: 16s;
-  animation-delay: 10s;
+  animation-duration: 21s;
+  animation-delay: 7s;
 }
 #snow .s15 {
-  left: 87vw;
+  left: 71vw;
   top: -10%;
-  animation-duration: 20s;
-  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-delay: 4s;
 }
 
 @keyframes snow {
@@ -248,7 +250,7 @@ header {
   position: relative;
 }
 header h1 {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins";
   color: #fff;
   position: absolute;
   top: 50%;
@@ -268,7 +270,7 @@ header h1 {
   align-items: center;
 }
 .title .title-cont h2 {
-  font-family: Poppins;
+  font-family: "Poppins";
   color: #86B4CE;
   text-align: left;
   font-size: 5vw;
@@ -295,6 +297,7 @@ main .items {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 100px;
 }
 main .items .item {
   flex-basis: 24%;
@@ -317,7 +320,7 @@ main .items .item img {
 main .items .item h3 {
   text-align: center;
   color: #2f2f2f;
-  font-family: Poppins;
+  font-family: "Poppins";
   transition: 0.7s;
   z-index: 10;
 }
@@ -348,7 +351,7 @@ footer {
   align-items: center;
   padding: 20px;
   color: #fff;
-  font-family: Poppins;
+  font-family: "Poppins";
 }
 footer a {
   text-decoration: none;
@@ -368,8 +371,62 @@ footer .copy:first-child {
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 800px) {
+  header {
+    background-size: 60vw;
+  }
+}
 @media only screen and (max-width: 770px) {
+  #overflow .gifts {
+    width: 90vw;
+  }
+
   main .items .item {
     flex-basis: 48%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #overflow .gifts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #overflow .gifts .gift {
+    flex-basis: 48%;
+  }
+
+  header {
+    background-size: 70vw;
+  }
+
+  .title .title-cont {
+    margin: 0 auto 200px auto;
+  }
+
+  main .items .item h3 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #overflow .gifts .gift {
+    flex-basis: 100%;
+  }
+
+  header {
+    height: 50vh;
+  }
+
+  main .items {
+    width: 95vw;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 300px) {
+  main .items .item {
+    flex-basis: 100%;
+  }
+  main .items .item h3 {
+    font-size: 20px;
   }
 }
