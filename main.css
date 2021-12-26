@@ -142,94 +142,94 @@ body {
   z-index: 100;
 }
 #snow .s1 {
-  left: 69vw;
+  left: 26vw;
   top: -10%;
-  animation-duration: 6s;
-  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-delay: 10s;
 }
 #snow .s2 {
-  left: 69vw;
+  left: 50vw;
   top: -10%;
-  animation-duration: 4s;
-  animation-delay: 6s;
+  animation-duration: 12s;
+  animation-delay: 1s;
 }
 #snow .s3 {
-  left: 53vw;
+  left: 100vw;
   top: -10%;
-  animation-duration: 20s;
-  animation-delay: 9s;
+  animation-duration: 8s;
+  animation-delay: 6s;
 }
 #snow .s4 {
-  left: 61vw;
+  left: 29vw;
   top: -10%;
-  animation-duration: 11s;
+  animation-duration: 9s;
   animation-delay: 10s;
 }
 #snow .s5 {
-  left: 1vw;
-  top: -10%;
-  animation-duration: 13s;
-  animation-delay: 8s;
-}
-#snow .s6 {
-  left: 95vw;
+  left: 36vw;
   top: -10%;
   animation-duration: 7s;
-  animation-delay: 4s;
-}
-#snow .s7 {
-  left: 70vw;
-  top: -10%;
-  animation-duration: 16s;
-  animation-delay: 6s;
-}
-#snow .s8 {
-  left: 75vw;
-  top: -10%;
-  animation-duration: 15s;
   animation-delay: 10s;
 }
-#snow .s9 {
-  left: 48vw;
+#snow .s6 {
+  left: 91vw;
   top: -10%;
-  animation-duration: 16s;
-  animation-delay: 7s;
-}
-#snow .s10 {
-  left: 47vw;
-  top: -10%;
-  animation-duration: 9s;
+  animation-duration: 15s;
   animation-delay: 9s;
 }
-#snow .s11 {
-  left: 80vw;
+#snow .s7 {
+  left: 68vw;
   top: -10%;
-  animation-duration: 13s;
-  animation-delay: 9s;
-}
-#snow .s12 {
-  left: 65vw;
-  top: -10%;
-  animation-duration: 21s;
-  animation-delay: 2s;
-}
-#snow .s13 {
-  left: 95vw;
-  top: -10%;
-  animation-duration: 16s;
+  animation-duration: 20s;
   animation-delay: 4s;
 }
-#snow .s14 {
-  left: 16vw;
+#snow .s8 {
+  left: 18vw;
   top: -10%;
   animation-duration: 10s;
-  animation-delay: 3s;
+  animation-delay: 4s;
+}
+#snow .s9 {
+  left: 92vw;
+  top: -10%;
+  animation-duration: 7s;
+  animation-delay: 6s;
+}
+#snow .s10 {
+  left: 22vw;
+  top: -10%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+#snow .s11 {
+  left: 57vw;
+  top: -10%;
+  animation-duration: 17s;
+  animation-delay: 8s;
+}
+#snow .s12 {
+  left: 17vw;
+  top: -10%;
+  animation-duration: 18s;
+  animation-delay: 7s;
+}
+#snow .s13 {
+  left: 70vw;
+  top: -10%;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+#snow .s14 {
+  left: 49vw;
+  top: -10%;
+  animation-duration: 22s;
+  animation-delay: 8s;
 }
 #snow .s15 {
-  left: 52vw;
+  left: 4vw;
   top: -10%;
-  animation-duration: 5s;
-  animation-delay: 6s;
+  animation-duration: 16s;
+  animation-delay: 2s;
 }
 
 @keyframes snow {
@@ -377,6 +377,12 @@ footer .copy:first-child {
   }
 }
 @media only screen and (max-width: 770px) {
+  #overflow h2 {
+    font-size: 7vw;
+  }
+  #overflow img {
+    width: 20vw;
+  }
   #overflow .gifts {
     width: 90vw;
   }

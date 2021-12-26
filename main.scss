@@ -335,9 +335,16 @@ footer{
 }
 @media only screen and (max-width: 770px) {
   #overflow{
+    h2{
+      font-size: 7vw;
+    }
+    img{
+      width: 20vw;
+    }
     .gifts{
       width: 90vw;
     }
+
   }
   main{
     .items{
